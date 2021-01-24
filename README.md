@@ -14,4 +14,4 @@ Eventually, we deployed the app with heroku.
 
 ### Used Tools 
 
-HTML, CSS, javascript, nodejs, mongoDB, expressjs, ejs and mongoose
+HTML, CSS, javascript, nodejs, mongoDB, expressjs, ejs, bulma and mongoose
