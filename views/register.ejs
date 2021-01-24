@@ -1,0 +1,30 @@
+<%- include('partials/header'); -%>
+
+
+<body class="text-center">
+
+    <div style="width:32rem; margin: auto; padding:10rem 0rem;">
+
+        <form class="field" action="register" method="POST">
+            <div class="field">
+                <h2 class="title">Register</h1>
+                <hr>
+                <div class="control">
+                    <input class="input" required type="text" class="form-control" name="username" placeholder="Email">
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <input class="input" required type="password" class="form-control" name="password" placeholder="Password">
+                </div>
+            </div>
+            <button type="submit" class="button is-primary is-fullwidth">Register</button>
+            <div>
+                <%- include('./partials/messages'); -%>
+            </div>
+        </div>
+        </div>
+    </form>
+    </div>
+
+</body>

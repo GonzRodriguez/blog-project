@@ -1,0 +1,21 @@
+<% if(typeof errors != 'undefined'){ %> <% errors.forEach(function(error) { %>
+<div class="notification is-warning" role="alert">
+    <span class="delete" onclick="this.parentElement.style.display='none';">&times;</span>
+    <strong> <%= error.msg %> </strong><%= success_msg %>
+</div>
+<% }); %> <% } %> <% if(success_msg != ''){ %>
+<div class="notification is-warning" role="alert">
+    <span class="delete" onclick="this.parentElement.style.display='none';">&times;</span>
+    <strong> <%= success_msg %> </strong><%= error_msg %>
+</div>
+<% } %> <% if(error_msg != ''){ %>
+<div class="notification is-warning" role="alert">
+    <span class="delete" onclick="this.parentElement.style.display='none';">&times;</span>
+    <strong> <%= error_msg %> </strong>
+</div>
+<% } %> <% if(error != ''){ %>
+<div class="notification is-warning" role="alert">
+    <span class="delete" onclick="this.parentElement.style.display='none';">&times;</span>
+    <strong> <%= error %> </strong>
+</div>
+<% } %>

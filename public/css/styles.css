@@ -1,0 +1,95 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar-brand {
+  color: cornsilk;
+  background-color: black;
+  font-family: initial;
+}
+footer {
+  background-color: rgb(245, 245, 245);
+  position: static;
+  bottom: 0;
+  width: 100%;
+
+  padding: 2em
+}
+input#file-upload {
+    display: none;
+}
+
+nav {
+   box-shadow: 0 8px 8px -8px rgba(0,0,0,.2);
+}
+.is-horizontal-center {
+  justify-content: center;
+}
+
+#cardPost{
+  width: 100%;
+}
+
+label.button.is-primary{
+  display: inline-block;
+  cursor: pointer;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 0rem;    /* Footer height */
+}
+
+.text-left {
+  text-align-last: right;
+}
+
+.navbar-item.yellow {
+  background-color: #fff200;
+  color: white;
+}
+.navbar-item.red {
+  background-color: hsl(17, 100%, 50%);
+  color: white;
+}
+.navbar-item.blue {
+  background-color: #31cada;
+  color: aliceblue;
+}
+
+.strong {
+  color: hsl(180, 2%, 24%);
+}
+.small-text {
+font-size: small; 
+}
+
+a.link {
+  color: rgb(31, 30, 30);
+}
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+.card {
+  width: 80%;
+  margin: auto
+}
+.column.is-one-fifth{
+  text-align: -webkit-center;
+}
+
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+    text-align: center;
+}
+
+
+/* Profile Content */

@@ -1,0 +1,20 @@
+<%- include('partials/header'); -%>
+<%- include('partials/navbar'); -%>
+
+<div class="container mt-6">
+<form  action="<%=_id%>" method="POST" enctype="multipart/form-data">
+    <div class="field">
+        <label>Title</label>
+        <input type="text" class="input" name="postTitle" value="<%=title%>">
+    </div>
+    <div class="field">
+        <label> Post </label>
+        <textarea class="textarea" name="postBody" rows="6"><%=content%></textarea>
+    </div>
+    <input name="img" class="button" type="file" accept="image/*">
+    <button type="submit" class="button button-dark ">Edit</button>
+    </form>
+
+</div>
+
+<%- include('partials/footer'); -%>
